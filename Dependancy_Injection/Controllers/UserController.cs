@@ -77,7 +77,7 @@ namespace Dependancy_Injection.Controllers
             return View();
         }
 
-        // POST: User/Delete/5
+        //POST: User/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
